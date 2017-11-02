@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{34B9099E-4B00-4707-BFDE-0B95997F8893}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoXamarinDemo/project.json">
+    <Files>
+      <File FileName="ToDoXamarinDemo/TodoList.xaml.cs" Line="87" Column="39" />
+      <File FileName="Droid/MainActivity.cs" Line="4" Column="1" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.0.0-33/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1442" Column="15" />
+      <File FileName="Droid/project.json" Line="2" Column="20" />
+      <File FileName="iOS/CameraIOS.cs" Line="161" Column="6" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="Droid/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="ToDoXamarinDemo/project.json" Line="3" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDoXamarinDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5B4DD697-DE2F-4A59-99CC-16A51F1DC0A5" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ToDoXamarinDemo.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+</Properties>

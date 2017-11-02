@@ -1,0 +1,14 @@
+/Users/jiteshmiddha/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/bin/Debug/ToDoXamarinDemo.dll
+/Users/jiteshmiddha/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/bin/Debug/ToDoXamarinDemo.pdb
+/Users/jiteshmiddha/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/obj/Debug/ToDoXamarinDemo.csprojResolveAssemblyReference.cache
+/Users/jiteshmiddha/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/obj/Debug/ToDoXamarinDemo.csproj.CoreCompileInputs.cache
+/Users/jiteshmiddha/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/obj/Debug/ToDoXamarinDemo.TodoList.xaml.g.cs
+/Users/jiteshmiddha/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/obj/Debug/ToDoXamarinDemo.dll
+/Users/jiteshmiddha/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/obj/Debug/ToDoXamarinDemo.pdb
+/Users/somtripathi/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/bin/Debug/ToDoXamarinDemo.dll
+/Users/somtripathi/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/bin/Debug/ToDoXamarinDemo.pdb
+/Users/somtripathi/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/obj/Debug/ToDoXamarinDemo.csprojResolveAssemblyReference.cache
+/Users/somtripathi/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/obj/Debug/ToDoXamarinDemo.csproj.CoreCompileInputs.cache
+/Users/somtripathi/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/obj/Debug/ToDoXamarinDemo.TodoList.xaml.g.cs
+/Users/somtripathi/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/obj/Debug/ToDoXamarinDemo.dll
+/Users/somtripathi/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/obj/Debug/ToDoXamarinDemo.pdb
