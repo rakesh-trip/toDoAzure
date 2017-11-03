@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1034492356255",
+    "firebase_url": "https://xamarintodo-e1370.firebaseio.com",
+    "project_id": "xamarintodo-e1370",
+    "storage_bucket": "xamarintodo-e1370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034492356255:android:dfc47dd1ed4d9d3a",
+        "android_client_info": {
+          "package_name": "com.xamarin.sample.ToDoXamarinDemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034492356255-coeib6v9apru03oq08a3j93teem7cujp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz_VZfI7dwk2e81GzV2PSh44QalvVYr9Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
