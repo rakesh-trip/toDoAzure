@@ -54,7 +54,7 @@ namespace ToDoXamarinDemo
         // Data methods
         async Task AddItem(TodoItem item)
         {
-            if (item == null || item.Id == null || item.Name == null)
+            if (item.Name == "")
             {
                 await DisplayAlert("ToDo", "Please enter a to do task", "OK");
             }
@@ -150,16 +150,16 @@ namespace ToDoXamarinDemo
             Device.BeginInvokeOnMainThread(async () =>
             {
                 //Ask the user if they want to use the camera or pick from the gallery
-                var action = await DisplayActionSheet("Add Photo", "Cancel", null, "Choose Existing", "Take Photo");
+                var action = await DisplayActionSheet("Add Photo", "Cancel", null, "Choose Image");
 
-                if (action == "Choose Existing")
+                if (action == "Choose Image")
                 {
                     DependencyService.Get<CameraInterface>().BringUpPhotoGallery();
                 }
-                else if (action == "Take Photo")
-                {
-                    DependencyService.Get<CameraInterface>().BringUpCamera();
-                }
+                //else if (action == "Take Photo")
+                //{
+                //    DependencyService.Get<CameraInterface>().BringUpCamera();
+                //}
 
 
 
