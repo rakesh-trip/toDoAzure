@@ -11,7 +11,7 @@
 	--sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--sdk \
-	11.0 \
+	11.1 \
 	--targetver \
 	7.0 \
 	--aot-options=-O=-float32 \

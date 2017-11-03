@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.xamarin.sample.ToDoXamarinDemo">
   <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="25" />
   <uses-permission android:name="android.permission.INTERNET" />
+  <permission android:name="com.xamarin.sample.ToDoXamarinDemo.permission.C2D_MESSAGE" />
+  <uses-permission android:name="com.xamarin.sample.ToDoXamarinDemo.permission.C2D_MESSAGE" />
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
   <application android:label="ToDoXamarinDemo" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.hardware.camera" />
@@ -20,6 +25,21 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <receiver android:permission="com.google.android.c2dm.permission.SEND" android:name="md5e0b39f3110588a210eb662a25619a1e5.PushHandlerBroadcastReceiver">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <category android:name="com.xamarin.sample.ToDoXamarinDemo" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+        <category android:name="com.xamarin.sample.ToDoXamarinDemo" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.google.android.gcm.intent.RETRY" />
+        <category android:name="com.xamarin.sample.ToDoXamarinDemo" />
+      </intent-filter>
+    </receiver>
+    <service android:name="md5e0b39f3110588a210eb662a25619a1e5.GcmService" />
     <activity android:label="Web Authenticator" android:name="md581ea35436e69ff6296ba639950f061de.FormAuthenticatorActivity" />
     <activity android:label="Web Authenticator" android:name="md581ea35436e69ff6296ba639950f061de.WebAuthenticatorActivity" />
     <receiver android:name="md581ea35436e69ff6296ba639950f061de.CustomTabsActionsBroadcastReceiver" />

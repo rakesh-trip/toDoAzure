@@ -26,6 +26,7 @@ namespace ToDoXamarinDemo.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Gcm.Client.Resource.String.library_name = global::ToDoXamarinDemo.Droid.Resource.String.library_name;
 			global::Xamarin.Auth._MobileServices.Resource.Animation.slide_in_right = global::ToDoXamarinDemo.Droid.Resource.Animation.slide_in_right;
 			global::Xamarin.Auth._MobileServices.Resource.Animation.slide_out_left = global::ToDoXamarinDemo.Droid.Resource.Animation.slide_out_left;
 			global::Xamarin.Auth._MobileServices.Resource.Drawable.ic_arrow_back = global::ToDoXamarinDemo.Droid.Resource.Drawable.ic_arrow_back;
@@ -3109,6 +3110,9 @@ namespace ToDoXamarinDemo.Droid
 			
 			// aapt resource value: 0x7f080025
 			public const int character_counter_pattern = 2131230757;
+			
+			// aapt resource value: 0x7f080029
+			public const int library_name = 2131230761;
 			
 			// aapt resource value: 0x7f080000
 			public const int mr_button_content_description = 2131230720;

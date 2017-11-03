@@ -133,6 +133,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"GCM.Client.dll",
 		"ToDoXamarinDemo.dll",
 		"Xamarin.Android.NUnitLite.dll",
 	};

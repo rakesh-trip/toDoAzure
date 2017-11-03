@@ -54,8 +54,15 @@ namespace ToDoXamarinDemo
         // Data methods
         async Task AddItem(TodoItem item)
         {
-            await manager.SaveTaskAsync(item);
-            todoList.ItemsSource = await manager.GetTodoItemsAsync();
+            if (item == null || item.Id == null || item.Name == null)
+            {
+                await DisplayAlert("ToDo", "Please enter a to do task", "OK");
+            }
+            else
+            {
+                await manager.SaveTaskAsync(item);
+                todoList.ItemsSource = await manager.GetTodoItemsAsync();}
+           
         }
 
         async Task CompleteItem(TodoItem item)
@@ -68,7 +75,12 @@ namespace ToDoXamarinDemo
         public async void OnAdd(object sender, EventArgs e)
         {
 
-            if (selectedImageArray != null) {
+            if (authenticated == false)
+            {
+                await DisplayAlert("ToDo", "Please sign in to add tasks.", "OK");
+            }
+
+            else if (selectedImageArray != null) {
                 // upload image
 
                 selectedImage = await BlobManager.Instance.UploadAsync(selectedImageArray);
@@ -90,20 +102,33 @@ namespace ToDoXamarinDemo
 
         async void loginButton_Clicked(object sender, EventArgs e)
         {
-            if (App.Authenticator != null)
+            if (authenticated == true)
+            {
+                await DisplayAlert("ToDo", "You have already logged in","OK");
+                await RefreshItems(true, syncItems: false);
+
+            }
+            else
+            {
                 authenticated = await App.Authenticator.Authenticate();
+            }
+            await RefreshItems(true, syncItems: false);
 
             // Set syncItems to true to synchronize the data on startup when offline is enabled.
-            if (authenticated == true)
-                await RefreshItems(true, syncItems: false);
         }
 
 
         async void imageButton_Clicked(object sender, EventArgs e)
         {
-           
 
 
+            if (authenticated == false)
+            {
+                await DisplayAlert("ToDo", "Please sign in to continue", "OK");
+                await RefreshItems(true, syncItems: false);
+
+            }else
+            {
             // when image is selected
             MessagingCenter.Subscribe<byte[]>(this, "ImageSelected", (args) =>
             {
@@ -139,6 +164,7 @@ namespace ToDoXamarinDemo
 
 
             });
+            }
         }
 
 

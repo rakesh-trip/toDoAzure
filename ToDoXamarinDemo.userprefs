@@ -1,22 +1,53 @@
 ﻿<Properties StartupConfiguration="{34B9099E-4B00-4707-BFDE-0B95997F8893}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoXamarinDemo/project.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoXamarinDemo/TodoList.xaml.cs">
     <Files>
-      <File FileName="ToDoXamarinDemo/TodoList.xaml.cs" Line="87" Column="39" />
-      <File FileName="Droid/MainActivity.cs" Line="4" Column="1" />
-      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.0.0-33/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1442" Column="15" />
-      <File FileName="Droid/project.json" Line="2" Column="20" />
-      <File FileName="iOS/CameraIOS.cs" Line="161" Column="6" />
-      <File FileName="Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
-      <File FileName="Droid/Properties/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="ToDoXamarinDemo/project.json" Line="3" Column="44" />
+      <File FileName="ToDoXamarinDemo/TodoList.xaml.cs" Line="75" Column="64" />
+      <File FileName="Droid/MainActivity.cs" Line="117" Column="1" />
+      <File FileName="ToDoXamarinDemo/App.cs" Line="31" Column="1" />
+      <File FileName="Droid/GcmService.cs" Line="31" Column="74" />
+      <File FileName="Droid/google-services.json" Line="1" Column="1" />
+      <File FileName="ToDoXamarinDemo/BlobManager.cs" Line="45" Column="29" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDoXamarinDemo" expanded="True">
+            <Node name="ToDoXamarinDemo" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="TodoList.xaml" expanded="True">
+                <Node name="TodoList.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="ToDoXamarinDemo.Droid" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Packages" expanded="True" />
+              <Node name="Assets" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/MainActivity.cs" relfile="Droid/MainActivity.cs" line="109" column="1" />
+      <Breakpoint file="/Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/MainActivity.cs" relfile="Droid/MainActivity.cs" line="114" column="1" />
+      <Breakpoint file="/Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/MainActivity.cs" relfile="Droid/MainActivity.cs" line="107" column="1" />
+      <Breakpoint file="/Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/MainActivity.cs" relfile="Droid/MainActivity.cs" line="104" column="1" />
+      <Breakpoint file="/Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/GcmService.cs" relfile="Droid/GcmService.cs" line="141" column="1" />
+      <Breakpoint file="/Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/GcmService.cs" relfile="Droid/GcmService.cs" line="146" column="1" />
+      <Breakpoint file="/Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/GcmService.cs" relfile="Droid/GcmService.cs" line="45" column="1" />
+      <Breakpoint file="/Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/GcmService.cs" relfile="Droid/GcmService.cs" line="57" column="1" />
+      <Breakpoint file="/Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/GcmService.cs" relfile="Droid/GcmService.cs" line="79" column="1" />
+      <Breakpoint file="/Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/GcmService.cs" relfile="Droid/GcmService.cs" line="103" column="1" />
+      <Breakpoint file="/Users/somtripathi/Downloads/ToDoXamarinDemo-2/ToDoXamarinDemo/TodoList.xaml.cs" relfile="ToDoXamarinDemo/TodoList.xaml.cs" line="100" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ToDoXamarinDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5B4DD697-DE2F-4A59-99CC-16A51F1DC0A5" />
+  <MonoDevelop.Ide.ItemProperties.ToDoXamarinDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.98BB7918-042C-47B5-B08A-15BBE612A653" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.ToDoXamarinDemo.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
 </Properties>

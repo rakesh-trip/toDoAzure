@@ -5,6 +5,7 @@
 /Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/bin/Debug/ToDoXamarinDemo.Droid.pdb
 /Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/bin/Debug/com.xamarin.sample.ToDoXamarinDemo.apk
 /Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/bin/Debug/com.xamarin.sample.ToDoXamarinDemo-Signed.apk
+/Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/bin/Debug/GCM.Client.dll
 /Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/bin/Debug/ToDoXamarinDemo.dll
 /Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/bin/Debug/ToDoXamarinDemo.pdb
 /Users/somtripathi/Downloads/ToDoXamarinDemo-2/Droid/obj/Debug/ToDoXamarinDemo.Droid.csprojResolveAssemblyReference.cache
